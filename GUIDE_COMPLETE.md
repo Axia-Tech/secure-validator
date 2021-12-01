@@ -73,7 +73,7 @@ Note: The key paths MUST be added to `ssh-add`.
 ### Synchronization
 
 ```
-$ git clone https://github.com/w3f/secure-validator
+$ git clone https://github.com/axia-tech/secure-validator
 $ cd secure-validator
 $ yarn
 $ cp config/main.template.json config/main.json

@@ -6,7 +6,7 @@ variable "do_token" {
 }
 
 variable "name" {
-  default = "w3f"
+  default = "axia"
 }
 
 variable "public_key" {

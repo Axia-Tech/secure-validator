@@ -1,7 +1,7 @@
 {
   "project": "integration-test",
   "axiaBinary": {
-    "url": "https://github.com/w3f/axia/releases/download/v0.8.22/axia",
+    "url": "https://github.com/axia-tech/axia/releases/download/v0.1.0/axia",
     "checksum": "sha256:7bfe10a0e46385dfb488dcc05ecffbb3075dcbd1d469e44b67a0f5d870185a05"
   },
   "nodeExporter": {
@@ -24,7 +24,7 @@
         "location": "us-east1",
         "zone": "us-east1-b",
         "projectId": "development-252112",
-        "sshUser": "w3fadmin",
+        "sshUser": "axiaadmin",
         "image": "2004"
       }
     ]

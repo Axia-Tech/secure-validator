@@ -105,8 +105,7 @@ Important variables which should vary from the [sample inventory](ansible/invent
   name.
 * `axia_binary_url` - This is the URL from were Ansible will
   download the AXIA binary. Binary releases are available in the official
-  [AXIA Releases repo](https://github.com/axia-tech/axia/releases) or the
-  [W3F Releases repo](https://github.com/w3f/axia/releases).
+  [AXIA Releases repo](https://github.com/axia-tech/axia/releases).
 * `axia_binary_checksum` - The SHA256 checksum of the AXIA binary which
   Ansible verifies during execution. Must be prefixed with `sha256:`.
 * `chain` - The chain to work on, such as `kusama` or `axia`.
@@ -127,7 +126,7 @@ project=alice-in-wonderland
 
 # Can be left as is.
 ansible_ssh_common_args='-o StrictHostKeyChecking=no -o ConnectTimeout=15'
-build_dir=$HOME/.config/axia-secure-validator/build/w3f/ansible
+build_dir=$HOME/.config/secure-validator/build/axia/ansible
 
 # Specify which `axia` binary to install. Checksum is verified during execution.
 axia_binary_url='https://github.com/axia-tech/axia/releases/download/v0.1.0/axia'

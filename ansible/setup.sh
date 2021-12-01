@@ -14,7 +14,7 @@ ANSIBLE_FILES_DIR="$(dirname "$0")"
 INVENTORY="${1:-${ANSIBLE_FILES_DIR}/inventory.yml}"
 
 echo -n ">> Checking inventory file (${INVENTORY}) exists and is readable... "
-[ -r "${INVENTORY}" ]; handle_error "Please check https://github.com/axia-tech/axia-secure-validator/blob/master/GUIDE_ANSIBLE.md#inventory"
+[ -r "${INVENTORY}" ]; handle_error "Please check https://github.com/axia-tech/secure-validator/blob/master/GUIDE_ANSIBLE.md#master"
 
 echo -n ">> Pulling upstream changes... "
 out=$((git pull origin master) 2>&1)

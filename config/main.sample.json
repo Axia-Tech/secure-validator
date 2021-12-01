@@ -1,5 +1,5 @@
 {
-  "project": "w3f",
+  "project": "axia",
   "axiaBinary": {
     "url": "https://github.com/Axia-Tech/axia/releases/tag/v0.1.0/axia",
     "checksum": "sha256:0b27d0cb99ca60c08c78102a9d2f513d89dfec8dbd6fdeba8b952a420cdc9fd2"

@@ -1,5 +1,5 @@
 variable "name" {
-  default = "w3f"
+  default = "axia"
 }
 
 variable "hcloud_token" {

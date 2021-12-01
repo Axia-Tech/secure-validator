@@ -33,7 +33,7 @@ variable "node_count" {
 }
 
 variable "name" {
-  default = "w3f"
+  default = "axia"
 }
 
 variable "image" {

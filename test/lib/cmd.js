@@ -5,7 +5,7 @@ require('chai').should()
 describe('Command splitting', () => {
 
   it('preserves args with spaces in but in quotes', () => {
-    splitCommandAndArgs(`ansible-playbook main.yml -f 30 -i "/Users/user/Library/Application Support/axia-secure-validator/build/w3f/ansible/inventory"`)
+    splitCommandAndArgs(`ansible-playbook main.yml -f 30 -i "/Users/user/Library/Application Support/secure-validator/build/axia/ansible/inventory"`)
       .should.deep.eq(
       [
         'ansible-playbook',
@@ -13,7 +13,7 @@ describe('Command splitting', () => {
         '-f',
         '30',
         '-i',
-        '/Users/user/Library/Application Support/axia-secure-validator/build/w3f/ansible/inventory'
+        '/Users/user/Library/Application Support/secure-validator/build/axia/ansible/inventory'
       ]
     );
 

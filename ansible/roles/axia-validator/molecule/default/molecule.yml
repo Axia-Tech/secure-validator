@@ -20,7 +20,7 @@ provisioner:
     host_vars:
       axia-validator-validator-node:
         axia_network_id: ksmcc3
-        axia_binary_url: 'https://github.com/w3f/axia/releases/download/v0.8.23/axia'
+        axia_binary_url: 'https://github.com/axia-tech/axia/releases/download/v0.1.0/axia'
         axia_binary_checksum: 'sha256:cdf31d39ed54e66489d1afe74ed7549d5bcdf8ff479759e8fc476d17d069901e'
 verifier:
   name: testinfra
